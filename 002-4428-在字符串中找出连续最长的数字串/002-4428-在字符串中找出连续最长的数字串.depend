@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1452847006 source:d:\workspaces\codeblocks\huawei-oj\002-4428-在字符串中找出连续最长的数字串\main.cpp
+	<iostream>
+	"OJ.h"
+
+1452842880 d:\workspaces\codeblocks\huawei-oj\002-4428-在字符串中找出连续最长的数字串\oj.h
+

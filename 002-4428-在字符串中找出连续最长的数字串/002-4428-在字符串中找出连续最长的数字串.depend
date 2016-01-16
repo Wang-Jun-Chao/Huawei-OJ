@@ -16,3 +16,14 @@
 	<stdlib.h>
 	"oj.h"
 
+1452861481 source:d:\workspace\codeblocks\huawei-oj\002-4428-在字符串中找出连续最长的数字串\main.cpp
+	<iostream>
+	<iomanip>
+	"OJ.h"
+
+1452856188 d:\workspace\codeblocks\huawei-oj\002-4428-在字符串中找出连续最长的数字串\oj.h
+
+1452861678 source:d:\workspace\codeblocks\huawei-oj\002-4428-在字符串中找出连续最长的数字串\oj.cpp
+	<stdlib.h>
+	"oj.h"
+

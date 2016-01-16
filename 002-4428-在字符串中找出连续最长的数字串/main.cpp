@@ -19,15 +19,31 @@ int main() {
 
     rs = Continumax(&p, NULL);
     cout << rs << ", " << &p << ", |" << p << "|" <<endl;
-/*
+
     char input2[] = "abcd12345ed125ss123058789";
     char * p2;
     unsigned int rs2 = Continumax(&p2, input2);
     cout << rs2 << ", " << &p2 << ", " << p2 << endl;
 
     char input3[] = "abcd12345ss54761";
-    rs = Continumax(&p, input3);
-    cout << rs << ", " << &p << ", " << p << endl;
-*/
+    char * p3;
+    rs = Continumax(&p3, input3);
+    cout << rs << ", " << &p3 << ", " << p3 << endl;
+
+    char input4[] = "123456789abcd12345ss54761";
+    char * p4;
+    rs = Continumax(&p4, input4);
+    cout << input4 << ", " << rs << ", " << &p4 << ", " << p4 << endl;
+
+    char input5[] = "";
+    char * p5;
+    rs = Continumax(&p5, input5);
+    cout << input5 << ", " << rs << ", " << &p5 << ", " << p5 << endl;
+
+    char input6[] = "123456789";
+    char * p6;
+    rs = Continumax(&p6, input6);
+    cout << input6 << ", " << rs << ", " << &p6 << ", " << p6 << endl;
+
     return 0;
 }

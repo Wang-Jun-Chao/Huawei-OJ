@@ -45,5 +45,10 @@ int main() {
     rs = Continumax(&p6, input6);
     cout << input6 << ", " << rs << ", " << &p6 << ", " << p6 << endl;
 
+    char* intputstr = "abcd12345ed125ss123456789" ;
+	char *pOutputstr = NULL;
+	unsigned int nLength = Continumax(&pOutputstr, intputstr);
+	cout << nLength << " " << pOutputstr << endl;
+
     return 0;
 }

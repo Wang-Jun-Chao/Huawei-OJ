@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
     cout << "Hello world!" << endl;
+    cout << Bonus(50) << endl;
     cout << Bonus(1000) << endl;
     cout << Bonus(10000) << endl;
     cout << Bonus(100000) << endl;

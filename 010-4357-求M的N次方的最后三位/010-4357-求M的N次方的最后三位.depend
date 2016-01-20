@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1453254645 source:d:\workspace\codeblocks\huawei-oj\010-4357-求m的n次方的最后三位\main.cpp
+	<iostream>
+	"OJ.h"
+
+1332579788 d:\workspace\codeblocks\huawei-oj\010-4357-求m的n次方的最后三位\oj.h
+
+1453254744 source:d:\workspace\codeblocks\huawei-oj\010-4357-求m的n次方的最后三位\oj.cpp
+	<stdlib.h>
+	"oj.h"
+

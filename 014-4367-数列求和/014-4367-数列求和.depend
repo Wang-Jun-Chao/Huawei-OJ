@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1453258007 source:d:\workspace\codeblocks\huawei-oj\014-4367-数列求和\main.cpp
+	<iostream>
+	"OJ.h"
+
+1453257483 d:\workspace\codeblocks\huawei-oj\014-4367-数列求和\oj.h
+
+1453258067 source:d:\workspace\codeblocks\huawei-oj\014-4367-数列求和\oj.cpp
+	<iostream>
+	"OJ.h"
+

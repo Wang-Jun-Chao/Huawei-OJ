@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1453348834 source:d:\workspace\codeblocks\huawei-oj\022-4389-字符串反转\main.cpp
+	<iostream>
+	"OJ.h"
+
+1332745697 d:\workspace\codeblocks\huawei-oj\022-4389-字符串反转\oj.h
+
+1453348918 source:d:\workspace\codeblocks\huawei-oj\022-4389-字符串反转\oj.cpp
+	<stdlib.h>
+	<string.h>
+	"oj.h"
+

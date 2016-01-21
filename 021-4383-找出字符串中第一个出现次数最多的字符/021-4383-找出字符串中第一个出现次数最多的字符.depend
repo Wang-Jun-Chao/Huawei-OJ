@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1453346700 source:d:\workspace\codeblocks\huawei-oj\021-4383-找出字符串中第一个出现次数最多的字符\main.cpp
+	<iostream>
+	"OJ.h"
+
+1453345773 source:d:\workspace\codeblocks\huawei-oj\021-4383-找出字符串中第一个出现次数最多的字符\oj.cpp
+	<stdlib.h>
+	"OJ.h"
+
+1336204840 d:\workspace\codeblocks\huawei-oj\021-4383-找出字符串中第一个出现次数最多的字符\oj.h
+

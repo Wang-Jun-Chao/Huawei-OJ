@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1453342163 source:d:\workspace\codeblocks\huawei-oj\018-4358-求车速\main.cpp
+	<iostream>
+	"OJ.h"
+
+1337397563 d:\workspace\codeblocks\huawei-oj\018-4358-求车速\oj.h
+
+1453342026 source:d:\workspace\codeblocks\huawei-oj\018-4358-求车速\oj.cpp
+	"OJ.h"
+

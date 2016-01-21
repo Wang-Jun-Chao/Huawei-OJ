@@ -1,9 +1,13 @@
 # depslib dependency file v1.0
-1452909281 source:d:\workspace\codeblocks\huawei-oj\009-4356-判断任意两台计算机的ip地址是否属于同一子网络\main.cpp
+1453339780 source:d:\workspace\codeblocks\huawei-oj\009-4356-判断任意两台计算机的ip地址是否属于同一子网络\main.cpp
 	<iostream>
+	<stdlib.h>
+	"OJ.h"
 
 1337142117 d:\workspace\codeblocks\huawei-oj\009-4356-判断任意两台计算机的ip地址是否属于同一子网络\oj.h
 
-1452909100 source:d:\workspace\codeblocks\huawei-oj\009-4356-判断任意两台计算机的ip地址是否属于同一子网络\oj.cpp
+1453341089 source:d:\workspace\codeblocks\huawei-oj\009-4356-判断任意两台计算机的ip地址是否属于同一子网络\oj.cpp
+	<stdlib.h>
+	<string.h>
 	"OJ.h"
 

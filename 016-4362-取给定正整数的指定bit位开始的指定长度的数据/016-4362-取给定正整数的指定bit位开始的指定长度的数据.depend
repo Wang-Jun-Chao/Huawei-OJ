@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1453297174 source:d:\workspace\codeblocks\huawei-oj\016-4362-取给定正整数的指定bit位开始的指定长度的数据\main.cpp
+	<iostream>
+	<bitset>
+	"OJ.h"
+
+1333268624 d:\workspace\codeblocks\huawei-oj\016-4362-取给定正整数的指定bit位开始的指定长度的数据\oj.h
+	<vector>
+	<algorithm>
+
+1453298094 source:d:\workspace\codeblocks\huawei-oj\016-4362-取给定正整数的指定bit位开始的指定长度的数据\oj.cpp
+	"OJ.h"
+

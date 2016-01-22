@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1453426070 source:d:\workspace\codeblocks\huawei-oj\026-4392-字符串加解密\encrypt.cpp
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1453426359 source:d:\workspace\codeblocks\huawei-oj\026-4392-字符串加解密\main.cpp
+	<iostream>
+

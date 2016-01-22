@@ -16,7 +16,7 @@
 
 int ProcessString( char * strInput,char chSrc,char chDes ,char * strOutput) {
 
-    if(strInput == NULL || strOutput == NULL) {
+    if(strInput == NULL || strOutput == NULL || strInput[0] == '\0') {
         return -1;
     }
 

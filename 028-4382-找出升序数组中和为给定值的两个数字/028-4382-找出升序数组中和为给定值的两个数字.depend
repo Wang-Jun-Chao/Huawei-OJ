@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1453431246 source:d:\workspace\codeblocks\huawei-oj\028-4382-找出升序数组中和为给定值的两个数字\main.cpp
+	<iostream>
+	"OJ.h"
+
+1336648628 d:\workspace\codeblocks\huawei-oj\028-4382-找出升序数组中和为给定值的两个数字\oj.h
+
+1453431062 source:d:\workspace\codeblocks\huawei-oj\028-4382-找出升序数组中和为给定值的两个数字\oj.cpp
+	<stdio.h>
+	"OJ.h"
+

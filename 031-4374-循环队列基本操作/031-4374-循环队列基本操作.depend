@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1453446914 source:d:\workspaces\codeblocks\huawei-oj\031-4374-循环队列基本操作\main.cpp
+
+1453446970 source:d:\workspaces\codeblocks\huawei-oj\031-4374-循环队列基本操作\sqlist.cpp
+	<iostream>
+	<stdlib.h>
+

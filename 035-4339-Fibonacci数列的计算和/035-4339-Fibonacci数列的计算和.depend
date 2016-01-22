@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1453462471 source:d:\workspace\codeblocks\huawei-oj\035-4339-fibonacci数列的计算和\main.cpp
+	<iostream>
+	"OJ.h"
+
+1342836012 d:\workspace\codeblocks\huawei-oj\035-4339-fibonacci数列的计算和\oj.h
+
+1453462483 source:d:\workspace\codeblocks\huawei-oj\035-4339-fibonacci数列的计算和\oj.cpp
+

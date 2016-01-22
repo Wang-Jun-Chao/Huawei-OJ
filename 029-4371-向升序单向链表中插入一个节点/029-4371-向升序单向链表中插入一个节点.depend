@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1453432264 source:d:\workspace\codeblocks\huawei-oj\029-4371-向升序单向链表中插入一个节点\main.cpp
+	<iostream>
+	"OJ.h"
+
+1453431520 d:\workspace\codeblocks\huawei-oj\029-4371-向升序单向链表中插入一个节点\oj.h
+
+1453432032 source:d:\workspace\codeblocks\huawei-oj\029-4371-向升序单向链表中插入一个节点\oj.cpp
+	"OJ.h"
+

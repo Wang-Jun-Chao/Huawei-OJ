@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1453452741 source:d:\github\huawei-oj\032-4348-二维数组的列排序\oj.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"oj.h"
+
+1345110528 d:\github\huawei-oj\032-4348-二维数组的列排序\oj.h
+
+1453452708 source:d:\github\huawei-oj\032-4348-二维数组的列排序\main.cpp
+	<iostream>
+	"OJ.h"
+

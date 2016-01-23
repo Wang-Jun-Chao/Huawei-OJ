@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1453476221 source:d:\workspace\codeblocks\huawei-oj\041-4346-大数相乘\main.cpp
+	<iostream>
+	"OJ.h"
+
+1333090431 d:\workspace\codeblocks\huawei-oj\041-4346-大数相乘\oj.h
+	<string>
+
+1453475982 source:d:\workspace\codeblocks\huawei-oj\041-4346-大数相乘\oj.cpp
+	<vector>
+	<string>
+	"oj.h"
+

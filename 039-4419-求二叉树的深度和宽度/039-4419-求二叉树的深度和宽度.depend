@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1453471879 source:d:\workspace\codeblocks\huawei-oj\039-4419-求二叉树的深度和宽度\main.cpp
+	<iostream>
+	"OJ.h"
+
+1453469613 d:\workspace\codeblocks\huawei-oj\039-4419-求二叉树的深度和宽度\oj.h
+
+1453472988 source:d:\workspace\codeblocks\huawei-oj\039-4419-求二叉树的深度和宽度\oj.cpp
+	"OJ.h"
+	<string.h>
+	<stdio.h>
+	<list>
+	<iostream>
+

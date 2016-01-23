@@ -4,24 +4,57 @@
 #include "oj.h"
 
 using namespace std;
+// 用于测试的
+
+void printList(strNode * head) {
+
+    if(head != NULL) {
+        strNode * p = head;
+
+        while(p != NULL) {
+            cout << p->data << " ";
+            p = p->pstrNext;
+        }
+
+        cout << endl;
+    } else {
+        cout << "null" << endl;
+    }
+}
+
+
 
 // 将与head重复的节点删除，只留下第一个
 bool isDuplicateNode(strNode * head, int data) {
     if(head == NULL) {
         return false;
     }
+
+    strNode * prev = head;
     strNode * next = head->pstrNext;
 
+    bool dup = false;
 
     while(next != NULL) {
-        if(next->data == data) {
-            return true;
+        while(next != NULL && next->data == data) {
+            strNode * tmp = next;
+            next = next->pstrNext;
+            tmp->pstrNext = NULL;
+            free(tmp);
+            dup = true;
         }
 
-        next = next->pstrNext;
+        prev->pstrNext = next;
+
+        if(next != NULL) {
+            prev = next;
+             next = next->pstrNext;
+        } else {
+            prev->pstrNext = NULL;
+        }
     }
 
-    return false;
+    return dup;
 }
 
 
@@ -48,10 +81,11 @@ int iChanProcess(strNode * pstrIn,strNode * pstrOut) {
         return -1;
     }
 
+    strNode * head = new strNode();
+    head->pstrNext = NULL;
     strNode * p = pstrIn;
-
+    strNode * prev = head;
     set<int> intSet;
-
     while(p != NULL) {
         // 如果是重复元素
         if(intSet.find(p->data) != intSet.end()) {
@@ -61,38 +95,29 @@ int iChanProcess(strNode * pstrIn,strNode * pstrOut) {
 
         bool dup = isDuplicateNode(p, p->data);
 
-        // 如果是重复元素,并且不在重复元素集合中
-        if(dup == true) {
-            intSet.insert(p->data);
-            p = p->pstrNext;
-            continue;
-        }
 
-        // 创建一个新的结点
-        strNode * node = (strNode *)malloc(sizeof(strNode));
-        node->data = p->data;
+        //printList(p);
 
-        // 插入到node节点之后
-        node->pstrNext = pstrOut->pstrNext;
-        pstrOut->pstrNext = node;
-
-
+        strNode * tmp = p;
         p = p->pstrNext;
+        tmp->pstrNext = NULL;
 
+        // 如果p是重复结点，就将p删除
+        if(dup == true) {
+            free(tmp);
+        } else { // 不是重复结点，就使用尾插法，插入到head后面
+            tmp->pstrNext = head->pstrNext;
+            head->pstrNext = tmp;
+        }
     }
 
-    intSet.clear();
+    //printList(head->pstrNext);
 
-    // 第一个结点有后继结点，将后继结点删除，把后续结点值放在第一个结点上
-    if(pstrOut->pstrNext != NULL) {
-        strNode * next = pstrOut->pstrNext;
-        pstrOut->pstrNext = next->pstrNext;
-        pstrOut->data = next->data;
-        next->pstrNext = NULL;
-        free(next);
-    }
+    pstrOut = head->pstrNext;
+    head->pstrNext = NULL;
+    free(head);
 
-
+    printList(pstrOut);
 
     return 0;
 }

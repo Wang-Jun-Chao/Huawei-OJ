@@ -12,3 +12,17 @@
 	"oj.h"
 	<iostream>
 
+1453545866 source:d:\workspace\codeblocks\huawei-oj\042-4417-删除链表中的重复节点\oj.cpp
+	<stdlib.h>
+	<iostream>
+	<set>
+	"oj.h"
+
+1453543954 d:\workspace\codeblocks\huawei-oj\042-4417-删除链表中的重复节点\oj.h
+
+1453545461 source:d:\workspace\codeblocks\huawei-oj\042-4417-删除链表中的重复节点\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"OJ.h"
+

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1453549131 source:d:\workspace\codeblocks\huawei-oj\043-4416-arrangeanarraytoformasmallestdigit\main.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	"OJ.h"
+
+1335602247 d:\workspace\codeblocks\huawei-oj\043-4416-arrangeanarraytoformasmallestdigit\oj.h
+
+1453549288 source:d:\workspace\codeblocks\huawei-oj\043-4416-arrangeanarraytoformasmallestdigit\oj.cpp
+	<stdlib.h>
+	<string.h>
+	<list>
+	"oj.h"
+

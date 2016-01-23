@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1453558609 source:d:\workspace\codeblocks\huawei-oj\046-4739-周期串问题\main.cpp
+	<iostream>
+	"OJ.h"
+
+1342861868 d:\workspace\codeblocks\huawei-oj\046-4739-周期串问题\oj.h
+
+1453558616 source:d:\workspace\codeblocks\huawei-oj\046-4739-周期串问题\oj.cpp
+	"OJ.h"
+	<string.h>
+	<vector>
+	<math.h>
+	<iostream>
+

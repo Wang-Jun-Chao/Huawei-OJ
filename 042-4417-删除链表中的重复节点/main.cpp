@@ -12,7 +12,7 @@ void printList2(strNode * head) {
 
         while(p != NULL) {
             cout << p->data << " ";
-             p = p->pstrNext;
+            p = p->pstrNext;
         }
 
         cout << endl;
@@ -89,12 +89,25 @@ void testCase01() {
     //请考生自己构造单向链表进行测试
     iChanProcess(pstrIn,pstrOut);
 
+    printList2(pstrIn);
+    printList2(pstrOut);
+
     // TODO: 执行完成后可比较是否是你认为正确的值
     iChanToArray(pstrOut, iaDataMyOut, &iLenth);
     //printf("%d\n",pstrOut->data);
 
-    printList2(pstrOut);
+    cout << "==========================" << endl;
+    for(int i = 0; i < iLenth; i++) {
+        cout << iaDataMyOut[i] << " ";
+    }
 
+    cout << endl;
+
+    for(int i = 0; i < iLenth; i++) {
+        cout << iaDataOut[i] << " ";
+    }
+    cout << endl;
+    cout << "==========================" << endl;
     cout << 3 << " " << iLenth << endl;
     cout << 0 << " " <<  memcmp((char *)iaDataOut, (char *)iaDataMyOut, sizeof(int) * iLenth) << endl;
 

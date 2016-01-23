@@ -1,0 +1,132 @@
+#include <stdlib.h>
+#include <iostream>
+#include "oj.h"
+
+using namespace std;
+// 用于测试的
+
+void printList(strNode * head) {
+
+    if(head != NULL) {
+        strNode * p = head;
+
+        while(p != NULL) {
+            cout << p->data << " ";
+            p = p->pstrNext;
+        }
+
+        cout << endl;
+    } else {
+        cout << "null" << endl;
+    }
+}
+
+
+
+// 将与head重复的节点删除，只留下第一个
+bool isDuplicateNode(strNode * head, int data) {
+    if(head == NULL) {
+        return false;
+    }
+
+    strNode * prev = head;
+    strNode * next = head->pstrNext;
+
+    bool dup = false;
+    while(next != NULL) {
+        while(next != NULL && next->data == data) {
+            strNode * tmp = next;
+            next = next->pstrNext;
+            tmp->pstrNext = NULL;
+            free(tmp);
+            dup = true;
+        }
+
+        prev->pstrNext = next;
+
+        if(next != NULL) {
+            prev = next;
+             next = next->pstrNext;
+        } else {
+            prev->pstrNext = NULL;
+        }
+    }
+
+    return dup;
+}
+
+
+/*
+功能:  输入一个不带头节点的单向链表(链表的节点数小于100),删除链表中内容重复的节点（重复的节点全部删除），剩余的节点逆序倒排。
+
+输入:   pstrIn： 输入一个不带头节点的单向链表
+
+输出:   pstrOut：删除内容重复的节点后，逆序排列的链表(不带头节点,链表第一个节点的内存已经申请)。
+
+返回:
+
+示例:
+输入链表的内容依次为 6,7,8,8,9,10,6
+则输出链表的内容依次应该是 10,9,7
+
+*/
+
+
+
+int iChanProcess(strNode * pstrIn,strNode * pstrOut) {
+
+    if(pstrIn == NULL || pstrOut == NULL) {
+        return -1;
+    }
+
+    strNode * head = new strNode();
+    head->pstrNext = NULL;
+    strNode * p = pstrIn;
+    strNode * prev = head;
+
+    while(p != NULL) {
+        bool dup = isDuplicateNode(p, p->data);
+
+        //printList(p);
+
+        strNode * tmp = p;
+        p = p->pstrNext;
+        tmp->pstrNext = NULL;
+
+        // 如果p是重复结点，就将p删除
+        if(dup == true) {
+            free(tmp);
+        } else { // 不是重复结点，就使用尾插法，插入到head后面
+            tmp->pstrNext = head->pstrNext;
+            head->pstrNext = tmp;
+        }
+    }
+
+    //printList(head->pstrNext);
+
+    pstrOut = head->pstrNext;
+    head->pstrNext = NULL;
+    free(head);
+
+    printList(pstrOut);
+
+    return 0;
+}
+
+/* 释放链表 */
+void vFreeChan(strNode * pstrChan) {
+
+    if(pstrChan == NULL) {
+        return ;
+    }
+
+    do {
+        strNode * prev = pstrChan;
+        pstrChan = pstrChan->pstrNext;
+        prev->pstrNext = NULL;
+        free(prev);
+
+    } while(pstrChan != NULL);
+
+    return;
+}

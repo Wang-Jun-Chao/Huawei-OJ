@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1453650677 source:d:\workspace\codeblocks\huawei-oj\051-4397-最大递减数\degressive.cpp
+	<algorithm>
+	<vector>
+
+1453650841 source:d:\workspace\codeblocks\huawei-oj\051-4397-最大递减数\main.cpp
+	<iostream>
+	"Degressive.h"
+
+1366763815 d:\workspace\codeblocks\huawei-oj\051-4397-最大递减数\degressive.h
+

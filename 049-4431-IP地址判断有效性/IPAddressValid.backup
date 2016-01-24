@@ -1,12 +1,14 @@
 #include "IPAddressValid.h"
+#include <iostream>
 #include <cstring>
+#include <iostream>
 #include <cstdio>
 
 using namespace std;
 
-bool isIPAddressValid(const char* pszIPAddr) {
+bool isIPAddressValid3(const char* pszIPAddr) {
 
-    if(NULL == pszIPAddr) {
+    if(NULL==pszIPAddr) {
         return false;
     }
 
@@ -100,7 +102,9 @@ bool isIPAddressValid(const char* pszIPAddr) {
 
     return true;
 }
-/*
+
+
+
 // 下面的例子不能通过全部测试用例，不知道未通过的例子是什么
 
 bool ipToInt(const char * b, const char * e, int &rst) {
@@ -143,7 +147,7 @@ bool ipToInt(const char * b, const char * e, int &rst) {
 }
 
 // 注意00.0.00.00是合法的
-bool isIPAddressValid2(const char * pszIPAddr) {
+bool isIPAddressValid(const char * pszIPAddr) {
 
     if(pszIPAddr == NULL || pszIPAddr[0] == '\0') {
         return false;
@@ -196,5 +200,3 @@ bool isIPAddressValid2(const char * pszIPAddr) {
     return cnt == 4;
     //return true;
 }
-
-*/

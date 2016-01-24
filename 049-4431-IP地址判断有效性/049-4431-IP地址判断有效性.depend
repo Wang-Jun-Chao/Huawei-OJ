@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1453646149 source:d:\workspace\codeblocks\huawei-oj\049-4431-ip地址判断有效性\ipaddressvalid.cpp
+	"IPAddressValid.h"
+	<iostream>
+	<cstring>
+	<iostream>
+	<cstdio>
+
+1375348756 d:\workspace\codeblocks\huawei-oj\049-4431-ip地址判断有效性\ipaddressvalid.h
+
+1453646187 source:d:\workspace\codeblocks\huawei-oj\049-4431-ip地址判断有效性\main.cpp
+	<iostream>
+	"IPAddressValid.h"
+

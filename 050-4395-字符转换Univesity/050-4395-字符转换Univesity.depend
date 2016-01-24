@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1453648245 source:d:\workspace\codeblocks\huawei-oj\050-4395-×Ö·û×ª»»univesity\bracketmatching.cpp
+	<string>
+	<map>
+
+1453648944 source:d:\workspace\codeblocks\huawei-oj\050-4395-×Ö·û×ª»»univesity\oj.cpp
+	<stdlib.h>
+	"oj.h"
+	<iostream>
+
+1335529306 d:\workspace\codeblocks\huawei-oj\050-4395-×Ö·û×ª»»univesity\oj.h
+
+1453648511 source:d:\workspace\codeblocks\huawei-oj\050-4395-×Ö·û×ª»»univesity\main.cpp
+	<iostream>
+	"OJ.h"
+

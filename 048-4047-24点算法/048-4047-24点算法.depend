@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1453602440 source:d:\codeblocks\4047-24点算法\main.cpp
+	<iostream>
+	"OJ.h"
+
+1453601017 d:\codeblocks\4047-24点算法\oj.h
+
+1453603793 source:d:\codeblocks\4047-24点算法\oj.cpp
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<list>
+	<iostream>
+	"OJ.h"
+

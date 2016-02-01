@@ -7,6 +7,7 @@
 #include <iostream>
 #include <algorithm>
 
+#include "FindSimilarWord.h"
 
 using namespace std;
 
@@ -222,7 +223,7 @@ int FindOneSimilarWord (char* Word, int Seq, char* SimilarWord) {
 void ClearAllWords(void) {
     dic.erase(dic.begin(), dic.end());
 }
-/*
+
 void printDic() {
     map<string, set<string> >::iterator mapItr = dic.begin();
     for(; mapItr != dic.end(); mapItr++) {
@@ -233,4 +234,3 @@ void printDic() {
         cout << endl;
     }
 }
-*/

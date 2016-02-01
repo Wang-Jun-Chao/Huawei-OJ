@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1454308217 source:d:\huawei-oj\huawei-oj\052-4429-≤È’“–÷µ‹µ•¥ \main.cpp
+	<iostream>
+	<string.h>
+	"FindSimilarWord.h"
+
+1454308540 source:d:\huawei-oj\huawei-oj\052-4429-≤È’“–÷µ‹µ•¥ \findsimilarword.cpp
+	<set>
+	<vector>
+	<map>
+	<stdlib.h>
+	<string.h>
+	<string>
+	<iostream>
+	<algorithm>
+
+1454249523 d:\huawei-oj\huawei-oj\052-4429-≤È’“–÷µ‹µ•¥ \findsimilarword.h
+

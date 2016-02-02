@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1454406059 source:d:\huawei-oj\huawei-oj\055-4387-正数相减\main.cpp
+	<iostream>
+	"Decrease.h"
+
+1454406106 source:d:\huawei-oj\huawei-oj\055-4387-正数相减\decrease.cpp
+	<stdlib.h>
+	<string>
+	<vector>
+	<iostream>
+	"Decrease.h"
+
+1454404170 d:\huawei-oj\huawei-oj\055-4387-正数相减\decrease.h
+

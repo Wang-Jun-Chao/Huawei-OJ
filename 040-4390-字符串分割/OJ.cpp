@@ -6,7 +6,7 @@
 
 using namespace std;
 
-char value[100][9];
+char value[1000][9];
 unsigned int len = 0;
 
 
@@ -21,7 +21,7 @@ unsigned int len = 0;
 ****************************************************************/
 int  AddString(char *strValue) {
 
-    if(strValue == NULL || strValue[0] == '\0') {
+    if(strValue == NULL) {
         return -1;
     }
 
@@ -45,8 +45,9 @@ int  AddString(char *strValue) {
         idx += 8;
     }
 
+
     // 说明最后还有余下的
-    if(idx < cnt) {
+    if(idx < cnt || cnt == 0) {
         int num = (cnt - idx);
         for(int i = 0; i < num; i++) {
             value[len][i] = strValue[idx + i];
@@ -91,23 +92,22 @@ int  GetLength() {
 int  ArrCmp(char strInput[][9],int iLen) {
 
     if(strInput == NULL || iLen < 1 || iLen != len) {
-        return - 1;
+        return -1;
     }
 
     for(int i = 0; i < iLen; i++){
-        for(int j = 0; j < 8; j++) {
+        for(int j = 0; j < 9; j++) {
             if(value[i][j] != strInput[i][j]) {
                 return -1;
             }
         }
-
     }
     return 0;
 }
-/*
+
 void printMatrix() {
     for(int i = 0; i < len; i++) {
-        cout << value[i] << endl;
+        cout << "|" << value[i] << "|" << endl;
     }
 }
-*/
+

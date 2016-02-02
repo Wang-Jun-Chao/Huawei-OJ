@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1454396997 source:d:\huawei-oj\huawei-oj\054-4430-rtosck-软中断调度器\swischedule.cpp
+	<cstdio>
+	<queue>
+	<cstring>
+	<map>
+
+1454397253 source:d:\huawei-oj\huawei-oj\054-4430-rtosck-软中断调度器\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+

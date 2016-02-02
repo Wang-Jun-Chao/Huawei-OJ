@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1454328140 source:d:\huawei-oj\huawei-oj\053-4340-home&work\main.cpp
+	<iostream>
+	<stdlib.h>
+	"OJ.h"
+
+1339208947 d:\huawei-oj\huawei-oj\053-4340-home&work\oj.h
+
+1454328108 source:d:\huawei-oj\huawei-oj\053-4340-home&work\oj.cpp
+	<stdlib.h>
+	<iostream>
+	"OJ.h"
+

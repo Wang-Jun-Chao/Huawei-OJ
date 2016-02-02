@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="040-4390-字符串分割" />
+		<Option title="055-4387-正数相减" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/040-4390-字符串分割" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/055-4387-正数相减" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/040-4390-字符串分割" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/055-4387-正数相减" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -32,8 +32,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="OJ.cpp" />
-		<Unit filename="OJ.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

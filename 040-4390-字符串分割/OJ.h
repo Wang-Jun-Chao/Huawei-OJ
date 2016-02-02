@@ -39,6 +39,6 @@ int  GetLength();
 ******************************************************************************/
 int  ArrCmp(char strInput[][9],int iLen);
 
-// void printMatrix();
+void printMatrix();
 
 #endif

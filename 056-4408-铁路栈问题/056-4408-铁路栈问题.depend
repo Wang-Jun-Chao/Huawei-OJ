@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1454468086 source:d:\huawei-oj\huawei-oj\056-4408-铁路栈问题\sqlist.cpp
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<vector>
+	"sqlist.h"
+
+1454468044 d:\huawei-oj\huawei-oj\056-4408-铁路栈问题\sqlist.h
+
